@@ -9,7 +9,10 @@
 </br>
 <blockquote> data :: (DataFrame)</blockquote> 
  <i> DataFrame contains two or Three columns Hs Tp  and Direction, need to be analysed </i>
-
+</br>
 <blockquote> seasons_split :: (Bool)</blockquote>
 <i> Activate the seasons_split option. If activate the timeserie will be grouped by season : winter, summer, spring and autumn.</i>
-
+</br>
+<blockquote> clustering :: (str)</blockquote>
+<i> Activate the clustering algorithms. <blockquote>clustering = 'Kmean'</blockquote> for the Kmean method and <blockquote>clustering = 'GM'</blockquote> for the Gaussian mixture model.
+ 
