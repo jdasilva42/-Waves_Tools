@@ -82,7 +82,11 @@ Time
 
 [26280 rows x 3 columns]</code></pre>
 
-
+Then, for plot the occurrences and the cumulative frequencies whitout the classification and for all the data.
+<pre><code> 
+Wave_analyse= Wave_Tools(df_Data, seasons_split = False)
+Wave_analyse.plot_frequency()
+</code></pre>
 
 
 
