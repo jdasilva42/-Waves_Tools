@@ -108,3 +108,14 @@ Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='Kmean', n_k = 
 <img src ="Images/Figure_5.png">
 <img src ="Images/Figure_6.png">
 
+<i> For extract the wave parameters for 3 clusters k=3 </i> 
+<pre><code> 
+Wave_analyse= Wave_Tools.Kmean_run(k=3=
+Out[]: 
+         Hs         Tp   Direction
+0  0.704627  10.005830  256.922928
+1  1.713324  13.182331  246.245376
+2  0.940236   8.564546  208.884613
+</code></pre>
+
+
