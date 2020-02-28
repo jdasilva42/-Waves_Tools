@@ -7,9 +7,9 @@
 <blockquote> class <b>Wave_Tools</b>(data, seasons_split=False,clustering=None, n_k=None, p_err = None) </blockquote>
 <h3> Parameters </h3>
 </br>
-</br>
 <blockquote> data :: (DataFrame)</blockquote> 
  <i> DataFrame contains two or Three columns Hs Tp  and Direction, need to be analysed </i>
+</br>
 </br>
 <blockquote> seasons_split :: (Bool)</blockquote>
 <i> Activate the seasons_split option. If activate the timeserie will be grouped by season : winter, summer, spring and autumn.</i>
