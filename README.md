@@ -62,7 +62,7 @@ number of k clusters tested for fint the correct one. if the option clustering i
 
 Let's using a dataset from wave modelling propagation from IFREMER (French institut).
 
-<code> 
+<pre><code> 
 print(df_Data)
 
 Out[]: 
@@ -80,7 +80,7 @@ Time
 2018-12-30 22:00:00  0.525608   9.70874    254.293
 2018-12-30 23:00:00  0.537219  12.65820    254.281
 
-[26280 rows x 3 columns]</code>
+[26280 rows x 3 columns]</code></pre>
 
 
 
