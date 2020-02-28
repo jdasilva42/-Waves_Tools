@@ -82,11 +82,19 @@ Time
 
 [26280 rows x 3 columns]</code></pre>
 
-Then, for plot the occurrences and the cumulative frequencies whitout the classification and for all the data.
+<i>Then, for plot the occurrences and the cumulative frequencies whitout the classification and for all the data.</i>
+
 <pre><code> 
 Wave_analyse= Wave_Tools(df_Data, seasons_split = False)
 Wave_analyse.plot_frequency()
 </code></pre>
+<img src ="Images/Figure_1.png">
 
-
+<i> plot the correlogram </i>
+<pre><code> 
+Wave_analyse.plot_correlogram()
+</code></pre>
+<img src ="Images/Figure_2.png" width="20" >
+<img src ="Images/Figure_3.png">
+<img src ="Images/Figure_4.png">
 
