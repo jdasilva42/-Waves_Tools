@@ -35,7 +35,7 @@ number of k clusters tested for fint the correct one. if the option clustering i
 <i>Return the frequencies of occurrence for each feature and the cumulative frequencies.</i>
 </br>
 </br>
-<blockquote>plot_frequency(self)</blockquote>
+<blockquote>plot_frequency()</blockquote>
 <i>Return the plots of occurrences and the cumulative frequencies.</i>
 </br>
 </br>
@@ -47,7 +47,7 @@ number of k clusters tested for fint the correct one. if the option clustering i
 <i>Return plots Inertia vs number of clusters k and Silouette_score vs number of clusters k.</i>
 </br>
 </br>
-<blockquote>Kmeans_run(k)</blockquote>
+<blockquote>Kmeans_run( k )</blockquote>
 <i>Return DataFrame containing the controids of each cluster (k).</i>
 </br>
 </br>
@@ -55,8 +55,13 @@ number of k clusters tested for fint the correct one. if the option clustering i
 <i>Return plots Information Criterion for each number of cluster.</i>
 </br>
 </br>
-<blockquote>GM_run(k)</blockquote>
+<blockquote>GM_run( k )</blockquote>
 <i>Return DataFrame containing the mean controids of each cluster(k) and DataFrame containing the anomalies detected</i>
+
+# User Guide
+
+Let's using a dataset from wave modelling propagation from IFREMER (French institut).
+<pre><code>code</code></pre>
 
 
 
