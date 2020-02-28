@@ -61,9 +61,24 @@ number of k clusters tested for fint the correct one. if the option clustering i
 # User Guide
 
 Let's using a dataset from wave modelling propagation from IFREMER (French institut).
-<pre><code>code</code></pre>
 
+<pre><code>df_Data
+Out[]: 
+                           Hs        Tp  Direction
+Time                                              
+2016-01-01 00:00:00  2.355760  13.87020    245.966
+2016-01-01 01:00:00  2.327610  13.87020    245.675
+2016-01-01 02:00:00  2.317590  13.87020    245.664
+2016-01-01 03:00:00  2.317530  13.88890    245.944
+2016-01-01 04:00:00  2.335020  13.88890    246.426
+                      ...       ...        ...
+2018-12-30 19:00:00  0.468191  10.00000    254.370
+2018-12-30 20:00:00  0.489997   9.90099    254.241
+2018-12-30 21:00:00  0.509803   9.80392    254.221
+2018-12-30 22:00:00  0.525608   9.70874    254.293
+2018-12-30 23:00:00  0.537219  12.65820    254.281
 
+[26280 rows x 3 columns]</code></pre>
 
 
 
