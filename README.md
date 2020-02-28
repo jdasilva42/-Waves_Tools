@@ -5,6 +5,6 @@
 # How it works
 
 <blockquote> class <b>Wave_Tools</b>(data, seasons_split=False,clustering=None, n_k=None, p_err = None) </blockquote>
-## Parameters
+<h3> Parameters <h3>
 <blockquote> data :: (DataFrame)</blockquote> 
  <i> DataFrame contains two or Three columns Hs Tp  and Direction, need to be analysed
