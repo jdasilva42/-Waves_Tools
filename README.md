@@ -62,7 +62,9 @@ number of k clusters tested for fint the correct one. if the option clustering i
 
 Let's using a dataset from wave modelling propagation from IFREMER (French institut).
 
-<pre><code>df_Data
+<pre><code> 
+print(df_Data)
+
 Out[]: 
                            Hs        Tp  Direction
 Time                                              
