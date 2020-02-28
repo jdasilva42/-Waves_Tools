@@ -59,6 +59,7 @@ number of k clusters tested for fint the correct one. if the option clustering i
 <i>Return DataFrame containing the mean controids of each cluster(k) and DataFrame containing the anomalies detected</i>
 
 # User Guide
+<h3> Occurrences and cumulative frequency </h3>
 
 Let's using a dataset from wave modelling propagation from IFREMER (French institut).
 
@@ -94,7 +95,16 @@ Wave_analyse.plot_frequency()
 <pre><code> 
 Wave_analyse.plot_correlogram()
 </code></pre>
-<img src ="Images/Figure_2.png" width="20" >
-<img src ="Images/Figure_3.png">
-<img src ="Images/Figure_4.png">
+<img src ="Images/Figure_2.png" width="400" >
+<img src ="Images/Figure_3.png" width="400">
+<img src ="Images/Figure_4.png" width="400">
+
+<h3> clustering Kmean </h3>
+<i>Let's try to clustering the Ocean wave data allow to find a good representation of the Sea state.
+First, run the Waves_tools with the option <b>clustering ='Kmean'</b> and try the classification for a number of cluster between 2 and 9.</i>
+<pre><code> 
+Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='Kmean', n_k = range(2, 10) )
+</code></pre>
+<img src ="Images/Figure_5.png">
+<img src ="Images/Figure_6.png">
 
