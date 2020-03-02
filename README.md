@@ -21,7 +21,7 @@ The Gaussian mixture model incorporates the anomaly Detection for the timeserie.
 </br>
 </br>
 <blockquote> n_k :: (range)</blockquote>
-number of k clusters tested for fint the correct one. if the option clustering is activated by default n_k = range(2, 10).</i>
+number of k clusters tested for set the correct number of cluster. if the option clustering is activated by default n_k = range(2, 10).</i>
 </br>
 </br>
 <blockquote> p_err :: (int or float)</blockquote>
