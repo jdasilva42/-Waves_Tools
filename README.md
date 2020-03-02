@@ -17,7 +17,7 @@
 </br>
 <blockquote> clustering :: (str)</blockquote>
 <i> Activate the clustering algorithms. <b>clustering = 'Kmean'</b> for the Kmean method and <b>clustering = 'GM'</b> for the Gaussian mixture model.
-The Gaussian mixture model incorporates the anomaly Detection for the timeserie. The keyword <b>p_err</b> controls the anomaly selection.</i>
+The Gaussian mixture model incorporates the anomaly Detection for the timeserie. The keyword <b>p_err</b> controls the anomaly detection.</i>
 </br>
 </br>
 <blockquote> n_k :: (range)</blockquote>
