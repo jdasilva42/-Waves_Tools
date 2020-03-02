@@ -61,7 +61,8 @@ number of k clusters tested for set the correct number of cluster. if the option
 # User Guide
 <h3> Occurrences and cumulative frequency </h3>
 
-Let's using a dataset from wave modelling propagation from IFREMER (French institut).
+<i>Let's using a dataset from wave modelling propagation called MARC from IFREMER (French institut).
+the link to the model https://marc.ifremer.fr/</i>
 
 <pre><code> 
 print(df_Data)
