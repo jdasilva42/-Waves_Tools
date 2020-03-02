@@ -8,7 +8,8 @@
 <h3> Parameters </h3>
 </br>
 <blockquote> data :: (DataFrame)</blockquote> 
- <i> DataFrame contains two or Three columns Hs Tp  and Direction, need to be analysed. The variables Direction can be missing.</i>
+ <i> DataFrame contains two or Three columns Hs Tp  and Direction, need to be analysed. The variables Direction can be missing.
+the dataframe must contain a datetime index if the option seasons_split is activated</i>
 </br>
 </br>
 <blockquote> seasons_split :: (Bool)</blockquote>
