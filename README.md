@@ -121,5 +121,8 @@ Out[]:
 </code></pre>
 
 <h3> Clustering Gaussian mixture </h3>
-
-TO DO
+<i>For using the Gaussian mixture clustering and plot the Information Criterion for the n_k cluster.</i>
+<pre><code> 
+Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='GM', n_k = range(2, 10) )
+</code></pre>
+<img src ="Images/Figure_7.png">
