@@ -112,7 +112,7 @@ Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='Kmean', n_k = 
 
 <i> For extract the wave parameters centroids for 3 clusters k=3 </i> 
 <pre><code> 
-Wave_Tools.Kmean_run(k=3)
+Wave_analyse.Kmean_run(k=3)
 
 Wave_analyse.clusters
 Out[]: 
