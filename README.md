@@ -108,9 +108,9 @@ Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='Kmean', n_k = 
 <img src ="Images/Figure_5.png">
 <img src ="Images/Figure_6.png">
 
-<i> For extract the wave parameters for 3 clusters k=3 </i> 
+<i> For extract the wave parameters centroids for 3 clusters k=3 </i> 
 <pre><code> 
-Wave_analyse= Wave_Tools.Kmean_run(k=3)
+Wave_Tools.Kmean_run(k=3)
 
 Wave_analyse.clusters
 Out[]: 
@@ -123,6 +123,39 @@ Out[]:
 <h3> Clustering Gaussian mixture </h3>
 <i>For using the Gaussian mixture clustering and plot the Information Criterion for the n_k cluster.</i>
 <pre><code> 
-Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='GM', n_k = range(2, 10) )
+Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='GM', n_k = range(2, 10))
 </code></pre>
-<img src ="Images/Figure_7.png">
+<img src ="Images/Figure_8.png" width="500">
+
+<i> For extract the means of each Gaussian distribution, for exemple 3 clusters </i>
+<pre><code> 
+Wave_analyseGM_run(k=3)
+
+Wave_analyse.clusters
+Out[]: 
+         Hs         Tp   Direction
+0  0.715112  10.480407  258.281613
+1  0.914657   9.406316  225.689229
+2  1.642781  12.259621  246.167100
+</code></pre>
+
+<i> The anomalies detection are computed and piloted by the keyword </b>p_err</b>
+by default p_err = 1</i>
+<pre><code> 
+Wave_analyse.anomalies
+Out[]: 
+          Hs        Tp  Direction
+0    2.12410  14.08450    219.940
+1    2.24668  14.08450    218.636
+2    2.33167  14.08450    219.359
+3    2.72504   7.07363    219.721
+4    2.78693   7.20032    218.401
+..       ...       ...        ...
+258  1.94344  20.40820    235.534
+259  2.01508  20.00000    236.814
+260  2.17187  13.17470    216.967
+261  2.23055  13.51350    217.038
+262  2.26567  13.88890    220.035
+
+[263 rows x 3 columns]
+</code></pre>
