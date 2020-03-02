@@ -131,7 +131,7 @@ Wave_analyse= Wave_Tools(df_Data,seasons_split=False, clustering='GM', n_k = ran
 
 <i> For extract the means of each Gaussian distribution, for exemple 3 clusters </i>
 <pre><code> 
-Wave_analyseGM_run(k=3)
+Wave_analyse.GM_run(k=3)
 
 Wave_analyse.clusters
 Out[]: 
