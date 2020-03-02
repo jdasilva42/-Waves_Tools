@@ -25,7 +25,7 @@ number of k clusters tested for set the correct number of cluster. if the option
 </br>
 </br>
 <blockquote> p_err :: (int or float)</blockquote>
-<i> p_err controls the anomalie selection. A p_err equal to 1 means that approximately 1 % of the instances will be flagged as anomalies. by default p_err = 1 </i>
+<i> p_err controls the anomalies selection. A p_err equal to 1 means that approximately 1 % of the instances will be flagged as anomalies. by default p_err = 1 </i>
 </br>
 </br>
 </br>
