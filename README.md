@@ -56,7 +56,7 @@ number of k clusters tested for set the correct number of cluster. if the option
 </br>
 </br>
 <blockquote>GM_run( k )</blockquote>
-<i>Return DataFrame containing the mean controids of each cluster(k) and DataFrame containing the anomalies detected</i>
+<i>Return DataFrame containing the means of each Gaussian distribution cluster(k) and DataFrame containing the anomalies detected</i>
 
 # User Guide
 <h3> Occurrences and cumulative frequency </h3>
