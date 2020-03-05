@@ -83,6 +83,8 @@ class Wave_Tools():
         #check if the Direction column is present or not
         if 'Direction' in self.data:
             self.Direction = True
+        else:
+            self.Direction = False
         
        
         #Calculate the frequencies of occurrence and the cumulative frequencies
